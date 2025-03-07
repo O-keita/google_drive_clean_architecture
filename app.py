@@ -9,7 +9,7 @@ app.secret_key = SECRET_KEY
 
 @app.route('/')
 def home():
-    return "Welcome to the Google Drive API!"
+    return " Welcome to the Google Drive API! Please authorize to view your files. <button><a href='/authorize'>Authorize</a></button>"
 
 
 # Routes for authentication and listing files
